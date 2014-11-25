@@ -1,0 +1,37 @@
+{
+  "uuid": "ad8011a9-02b5-4c88-99f8-88f438ae8bc2",
+  "shortName": "Classic",
+  "longName": "Classic",
+  "companyName": "Zalew",
+  "versionCode": 2,
+  "versionLabel": "2.1",
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {},
+  "resources": {
+    "media": [
+      {
+        "type": "png",
+        "name": "IMAGE_BACKGROUND",
+        "file": "images/classic_background.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_BACKGROUND_LOGO",
+        "file": "images/classic_background2.png"
+      },
+      {
+        "type": "font",
+        "name": "FONT_ROBOTO_THIN_11",
+        "file": "fonts/Roboto-Regular.ttf"
+      },
+      {
+        "menuIcon": true,
+        "type": "png",
+        "name": "IMAGE_MENU_ICON",
+        "file": "images/classic_logo.png"
+      }
+    ]
+  }
+}

@@ -1,14 +1,15 @@
-#include "pebble_os.h"
-#include "pebble_app.h"
-#include "pebble_fonts.h"
+#include "pebble.h"
 
 
 #define MY_UUID { 0xAD, 0x80, 0x11, 0xA9, 0x02, 0xB5, 0x4C, 0x88, 0x99, 0xF8, 0x88, 0xF4, 0x38, 0xAE, 0x8B, 0xC2 }
+
+/*
 PBL_APP_INFO(MY_UUID,
              "Classic", "Zalew",
-             2, 1, /* App version */
+             2, 1,
              RESOURCE_ID_IMAGE_MENU_ICON,
              APP_INFO_WATCH_FACE);
+*/
 
 #define DISPLAY_SECONDS true
 #define DISPLAY_TIME false
